@@ -1,0 +1,2 @@
+# A way to copy output to the clipboard
+[Output] | xclip -sel clip 

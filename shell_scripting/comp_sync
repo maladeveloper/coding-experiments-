@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Sync from COMPUTER to Laptop 
+rsync -arv /home/malavan/device_share/ laptop:/home/malavan/device_share/
+

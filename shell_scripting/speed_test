@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Takes the speed test for the internet after restarting it (needs speedtest-cli and curl)
+
+sudo service network-manager restart
+
+sleep 10 
+
+curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
+

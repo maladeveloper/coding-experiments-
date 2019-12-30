@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Makes the computer go to sleep
+
+systemctl suspend
+
